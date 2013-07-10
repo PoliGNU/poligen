@@ -1,0 +1,57 @@
+html, body {
+    height: 100%;
+}
+
+#content, #logoarea, #logoarea > div {
+    height: 100%;
+}
+
+.fullsized {
+    height: calc(100% - 20);
+}
+
+#logoarea > div > p {
+    height: calc(50% - 101px);
+}
+
+#logo {
+    transition: all 0.2s ease;
+    width: 350px;
+}
+
+#logo.lento {
+    transition: all 2s ease;
+}
+
+.logoinit {
+    filter: blur(20px);
+    -webkit-filter: blur(20px);
+    -moz-filter: blur(2opx);
+}
+
+p.lead {
+    text-align: justify;
+}
+
+.bloco {
+    margin-top: 40px;
+    margin-bottom: 250px;
+}
+
+#contato > div.bloco{
+    margin-bottom: 10px;
+}
+
+#logo:hover {  
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+}
+
+h2 {
+    color: #800080;
+}
+
+footer {
+    font-size: 11px;
+}
