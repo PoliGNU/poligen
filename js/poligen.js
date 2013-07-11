@@ -30,5 +30,5 @@ $("#linkContato").click(function() {
 
 $(document).ready(function(){
     $("#logo").removeClass("logoinit");
-    $("#logo.lento").bind("transitionend webkitTransitionEnd oTransitionEnd MSTransitionEnd", function(){ $("#logo").removeClass("lento");});
+    $("#logo.lento").bind("transitionend webkitTransitionEnd oTransitionEnd MSTransitionEnd", function(){ $("#logo").removeClass("lento"); $("#rolagem").removeClass("escondido"); });
 });

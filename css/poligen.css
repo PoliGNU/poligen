@@ -2,6 +2,8 @@ html, body {
     height: 100%;
 }
 
+
+
 #content, #logoarea, #logoarea > div {
     height: 100%;
 }
@@ -20,13 +22,13 @@ html, body {
 }
 
 #logo.lento {
-    transition: all 2s ease;
+    transition: all 3s ease-out;
 }
 
 .logoinit {
-    filter: blur(20px);
-    -webkit-filter: blur(20px);
-    -moz-filter: blur(2opx);
+    filter: blur(40px);
+    -webkit-filter: blur(40px);
+    -moz-filter: blur(40px);
 }
 
 p.lead {
@@ -54,4 +56,17 @@ h2 {
 
 footer {
     font-size: 11px;
+}
+
+.rolagem {
+    position: fixed;
+    bottom: 0;
+    right: 5px;
+    height: 40px;
+    font-size: 14px;
+    color: #444;
+}
+
+.escondido {
+    opacity: 0;
 }
